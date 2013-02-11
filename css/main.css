@@ -1,0 +1,24 @@
+ .modal-body {
+  max-height: 270px;
+  max-width:270px;
+ }
+ 
+ .metro .tile.squarepeek {
+  height: 270px;
+  width:270px;
+ }
+ 
+ .metro .tile.widepeek {
+  height: 270px;
+  width:270px;
+ }
+
+.metro .tile{
+  width:131px;
+  height:131px;
+  margin:4px;
+}
+
+body{
+  background-color:black;
+}
