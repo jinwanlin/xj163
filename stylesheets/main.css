@@ -1,7 +1,11 @@
- 
+ .modal{
+   width:1070px;
+   margin-left:-535px;
+ }
  .modal-body {
-  max-height: 270px;
-  max-width:270px;
+  /*max-height: 270px;
+  max-width:270px;*/
+  max-height:500px;
  }
  
  .metro .tile.squarepeek {
@@ -158,4 +162,54 @@ body{
 .search input{
   border-width:0;
   background-color:#eee;
+}
+
+.modal_left{
+  width:320px;
+  padding:0 10px;
+  
+}
+.modal_center{
+  width:330px;
+  padding:0 10px;
+  border-width:0 1px;
+  border-style:dashed;
+  
+}.modal_right{
+  width:320px;
+  padding:0 10px;
+}
+.lab{
+  text-align:right;
+}
+
+.comment{
+  margin:2px 0;
+  padding:10px;
+  background-color:#e9efef;
+  
+}
+.comment_avatar{
+  float:left;
+  width:25px;
+  padding:5px 5px 5px 0;
+}
+.comment_content{
+}
+.comment_title{
+  color:#00A600;
+}
+.comment_date{
+  float:right;
+  color:#333;
+}
+.comment textarea{
+  width:100%;
+  overflow:auto;
+}
+.comment .option{
+  height:30px;
+}
+.comment button{
+  float:right;
 }
